@@ -241,11 +241,11 @@ function clearMoves() {
 }
 
 function decrementStar() {
-    if (movesCounter > 5) {
+    if (movesCounter > 15) {
         thirdStar.className = "fa fa-star-o";
     }
 
-    if (movesCounter > 10) {
+    if (movesCounter > 20) {
         secondStar.className = "fa fa-star-o";
     } 
 }
